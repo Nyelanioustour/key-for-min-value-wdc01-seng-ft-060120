@@ -11,13 +11,13 @@ end
 name_hash.each do |key, value|
   if value < comparison
     comparison = value
-  end 
-  binding.pry
   end
-  name_hash.each do |key, value|
+end
+
+name_hash.each do |key, value|
   if value == comparison
-    key
-  end 
-  
+    p key 
   end
+end
+  
 end
