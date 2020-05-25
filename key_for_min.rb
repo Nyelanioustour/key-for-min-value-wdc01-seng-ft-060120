@@ -8,7 +8,7 @@ name_hash.each do |key, value|
     output = key
   end
 end
-  output
+  p output
   
 
   
