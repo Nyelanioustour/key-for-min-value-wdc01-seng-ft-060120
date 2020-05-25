@@ -10,7 +10,7 @@ name_hash.each do |key, value|
   if value < comparison
     comparison = value
   end
-  name_hash.each |key, value|
+  name_hash.each do |key, value|
   if value == comparison
     key
   end
