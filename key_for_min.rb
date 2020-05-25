@@ -7,8 +7,9 @@ name_hash.each do |key, value|
   if value < comparison 
     output = key
   end
-end
   p output
+end
+  
   
 
   
