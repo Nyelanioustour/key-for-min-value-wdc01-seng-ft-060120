@@ -9,9 +9,9 @@ end
 name_hash.each do |key, value|
   if value < comparison
     comparison = value
-  end
+  end end
   name_hash.each do |key, value|
   if value == comparison
     key
-  end
+  end end
 end
