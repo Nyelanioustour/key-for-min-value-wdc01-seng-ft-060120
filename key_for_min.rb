@@ -10,7 +10,7 @@ name_hash.each do |key, value|
     output = key
   end
 end
-  binding.pry 
+  #binding.pry 
   output
   
 
