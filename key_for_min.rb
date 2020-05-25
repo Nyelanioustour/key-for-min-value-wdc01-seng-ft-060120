@@ -11,10 +11,10 @@ def key_for_min_value(name_hash)
       comparison = value
       output = key
     end
-end
+    end
 
   output
-  
+end
 
   
 end
